@@ -1,0 +1,380 @@
+<main>
+    <header>
+        <h1>XYZ - HOME</h1>
+        <nav>
+            <a [routerLink]="'/Home'">HOME</a>
+            <a hidden [routerLink]="'/Gallery'">GALLERY</a>
+            <a [routerLink]="'/About'">ABOUT US</a>
+            <a (click)="openDialog()">LOGIN</a>
+            <a (click)='onClickLogOut()'>
+              <mat-icon matTooltip="Logout">account_circle</mat-icon>
+            </a>
+        </nav>
+    </header>
+    <body>
+        <div class="sect sect--padding-top">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+              <div class="site">
+                <h1 class="site__title">Fast paced way to grow your business</h1>
+                <h2 class="site__subtitle">Manage analytics like a boss</h2>
+                <div class="site__box-link">
+                  <a class="btn btn--width">Pricing</a>
+                  <a class="btn btn--revert btn--width">Contact</a>
+                </div>
+                <img class="site__img" src="https://image.ibb.co/c7grYb/image3015.png">
+              </div>
+              </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="sect sect--padding-bottom">
+          <div class="container">
+          <div class="row row--center">
+            <h1 class="row__title">
+              Pricing
+            </h1>
+            <h2 class="row__sub">What fits your business the best?</h2>
+          </div>
+          <div class="row row--center row--margin">
+            <div class="col-md-4 col-sm-4 price-box price-box--purple">
+              <div class="price-box__wrap">
+                <div class="price-box__img"></div>
+                <h1 class="price-box__title">
+                  Startup
+                </h1>
+                <p class="price-box__people">
+                  1 - 100 people
+                </p>
+                <h2 class="price-box__discount">
+                  <span class="price-box__dollar">$</span>49<span class="price-box__discount--light">/mo</span>
+                </h2>
+                <h3 class="price-box__price">
+                  $65/mo
+                </h3>
+                <p class="price-box__feat">
+                  Features
+                </p>
+                <ul class="price-box__list">
+                  <li class="price-box__list-el">1 License</li>
+                  <li class="price-box__list-el">24h helpcenter</li>
+                  <li class="price-box__list-el">No tasks limit</li>
+                  <li class="price-box__list-el">No contractors limit </li>
+                </ul>
+                 <div class="price-box__btn">
+              </div>
+            </div>
+            </div>
+            <!-- second -->
+            <div class="col-md-4 col-sm-4 price-box price-box--violet">
+            <div class="price-box__wrap">
+                <div class="price-box__img"></div>
+                <h1 class="price-box__title">
+                  Business
+                </h1>
+                <p class="price-box__people">
+                  100 - 500 people
+                </p>
+                <h2 class="price-box__discount">
+                <span class="price-box__dollar">$</span>149<span class="price-box__discount--light">/mo</span>
+                </h2>
+                <h3 class="price-box__price">
+                  $225/mo
+                </h3>
+                <p class="price-box__feat">
+                  Features
+                </p>
+                <ul class="price-box__list">
+                  <li class="price-box__list-el">1 License</li>
+                  <li class="price-box__list-el">24h helpcenter</li>
+                  <li class="price-box__list-el">No tasks limit</li>
+                  <li class="price-box__list-el">No contractors limit </li>
+                </ul>
+                <div class="price-box__btn">
+              </div>
+            </div>
+            </div>
+          
+          <!-- terzo -->
+            <div class="col-md-4 col-sm-4 price-box price-box--blue">
+            <div class="price-box__wrap">
+                <div class="price-box__img"></div>
+                <h1 class="price-box__title">
+                  Corporate
+                </h1>
+                <p class="price-box__people">
+                  500+ people
+                </p>
+                <h2 class="price-box__discount">
+                <span class="price-box__dollar">$</span>399<span class="price-box__discount--light">/mo</span>
+                </h2>
+                <h3 class="price-box__price">
+                  $499/mo
+                </h3>
+                <p class="price-box__feat">
+                  Features
+                </p>
+                <ul class="price-box__list">
+                  <li class="price-box__list-el">1 License</li>
+                  <li class="price-box__list-el">24h helpcenter</li>
+                  <li class="price-box__list-el">No tasks limit</li>
+                  <li class="price-box__list-el">No contractors limit </li>
+                </ul>
+              <div class="price-box__btn">
+              </div>
+            </div>
+            </div>
+            
+            
+          
+          </div>
+          </div>
+          </div>
+          
+          <div class="sect sect--white sect--no-padding">
+          <div class="container">
+            <div class="row row--center">
+              <div class="col-md-3 col-xs-6 col-sm-6 partner">
+                <a href="#" class="partner__link">
+                <img class="partner_img" src="https://image.ibb.co/mOtHRw/fblogo.png">
+                </a>
+              </div>
+              
+          <div class="col-md-3  col-xs-6 col-sm-6 partner">
+                <a href="#" class="partner__link">
+                <img class="partner_img" src="https://image.ibb.co/nfpXRw/twitterlogo.png">
+                </a>
+              </div>
+              
+              
+          <div class="col-md-3 col-xs-6 col-sm-6 partner">
+                <a href="#" class="partner__link">
+                <img class="partner_img" src="https://image.ibb.co/imgOYb/googlelogo.png">
+                </a>
+              </div>
+              
+          <div class="col-md-3 col-xs-6 col-sm-6 partner">
+                <a href="#" class="partner__link">
+                <img class="partner_img" src="https://image.ibb.co/ebGAeG/dribbblelogo.png">
+                </a>
+              </div>
+                  
+              
+            </div>
+            <div class="row row--center">
+              <div class="col-md-3 col-xs-6 col-sm-6 partner">
+                <a href="#" class="partner__link">
+                <img class="partner_img" src="https://image.ibb.co/npV8Yb/gitlogo.png">
+                </a>
+              </div>
+              
+                  <div class="col-md-3 col-xs-6 col-sm-6 partner">
+                <a href="#" class="partner__link">
+                <img class="partner_img" src="https://image.ibb.co/cGyZ6w/stacklogo.png">
+                </a>
+              </div>
+              
+              
+                  <div class="col-md-3 col-xs-6 col-sm-6 partner">
+                <a href="#" class="partner__link">
+                <img class="partner_img" src="https://image.ibb.co/ij03zG/inlogo.png">
+                </a>
+              </div>
+              
+                  <div class="col-md-3 col-xs-6 col-sm-6 partner">
+                <a href="#" class="partner__link">
+                <img class="partner_img" src="https://image.ibb.co/ekqdzG/codepenlogo.png">
+                </a>
+              </div>
+            </div>
+          </div>    
+          </div>
+          
+          <div class="sect sect--white">
+          <div class="container">
+            <div class="row">
+             <h1 class="row__title">
+              Our blog
+            </h1>
+            <h2 class="row__sub">Sneak peeks from our writings</h2>
+            </div>
+            
+            <div class="row row--margin">
+              <div class="col-md-6 article-pre__col">
+                <a href="#" class="article-pre ">
+                  <div class="article-pre__img article-pre__img--first"></div>
+                  <h2 class="article-pre__info">
+                    <span class="article-pre__cat">Protips • </span><span class="article-pre__aut"> by Ann Timothy</span> <span class="article-pre__date"> - 5 mins read</span>
+                  </h2>
+                  <h1 class="article-pre__title">How to improve analytics using few tools in Bricks<span class="article-pre__arrow--purple"> →</span></h1>
+                </a>
+              </div>
+              
+                  <div class="col-md-6 article-pre__col">
+                <a href="#" class="article-pre ">
+                  <div class="article-pre__img article-pre__img--second"></div>
+                  <h2 class="article-pre__info">
+                    <span class="article-pre__cat">Pricing • </span><span class="article-pre__aut"> by Josh Ford</span> <span class="article-pre__date"> - 5 mins read</span>
+                  </h2>
+                  <h1 class="article-pre__title">Rich Thornett & Dan Coderholm about Dribbble in early 2009<span class="article-pre__arrow--purple">→</span></h1>
+                </a>
+              </div>    
+           </div>
+            <div class="row">
+               <div class="col-md-6 article-pre__col">
+                <a href="#" class="article-pre ">
+                  <div class="article-pre__img article-pre__img--fourth"></div>
+                  <h2 class="article-pre__info">
+                    <span class="article-pre__cat">Success Stories • </span><span class="article-pre__aut"> by Andrew Lincoln</span> <span class="article-pre__date"> - 5 mins read</span>
+                  </h2>
+                  <h1 class="article-pre__title">Steward Butterfield told us about his startup Slack<span class="article-pre__arrow--purple"> →</span></h1>
+                </a>
+              </div>
+              
+                  <div class="col-md-6 article-pre__col">
+                <a href="#" class="article-pre ">
+                  <div class="article-pre__img article-pre__img--third"></div>
+                  <h2 class="article-pre__info">
+                    <span class="article-pre__cat">Protips • </span><span class="article-pre__aut"> by Ann Timothy</span> <span class="article-pre__date"> - 5 mins read</span>
+                  </h2>
+                  <h1 class="article-pre__title">How to improve analytics using few tools in Bricks<span class="article-pre__arrow--purple"> →</span></h1>
+                </a>
+              </div>     
+            </div>
+          </div>
+          </div>
+          
+          <div class="sect sect--padding-bottom">
+            <div class="container">
+              <div class="row">
+               <h1 class="row__title">
+              Contact Us </h1>
+            <h2 class="row__sub">Feel free to ask any questions</h2>
+              </div>
+              <div class="row row--margin">
+                <div class="col-md-1"></div>
+                <div class="col-md-4">
+                  <div class="contacts">
+                    <a href="#" class="contacts__link"><img src="https://image.ibb.co/kcVou6/path3000.png"><h1 class="contacts_title-ag">Bricks<span class="contacts--light">.io</span></h1></a>
+                    <p class="contacts__address">
+                      431 Broadway, Floor 1-2<br>
+                      New York NY 10013<br>
+                      United States
+                    </p>
+                    <p class="contacts__info">
+                      tel. <a href="#" class="contacts__info-link">+1 234 567 890</a>
+                    </p>
+                    <p class="contacts__info">
+                      m. <a href="#"class="contacts__info-link">info@bricks.io</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <form id="contact" class="form">
+                    <div class="form-group">
+                      <select class="form__field form__select">
+                        <option selected value>Choose topic*</option>
+                        <option value=1>Pricing</option>
+                        <option value=2>Success Stories</option>
+                      </select>
+                      </div>
+                     <div class="form-group">
+                       <div class="form__field--half">
+                      <input type="text" placeholder="Name*" class="form__field form__text"/>
+                       </div>
+                    <div class="form__field--half">
+                    <input type="text" placeholder="Surname" class="form__field form__text"/>
+                    </div>
+                    </div>
+                
+                  <div class="form-group">
+                    <div class="form__field--half">
+                      <input type="text" placeholder="Email address*" class="form__field form__text"/>
+                    </div>
+                   <div class="form__field--half">
+                    <input type="text" placeholder="Phone number" class="form__field form__text"/>
+              </div>
+                    </div>
+            
+                    <div class="form-group">
+                      <textarea type="text" placeholder="Your messsage*" class="form__field form__textarea"></textarea>
+                      <button class="btn btn--up btn--width" type="submit">Submit</button>
+                    </div>
+                  </form>
+                </div>   
+          <div class="col-md-1"></div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="sect sect--violet ">
+            <img src="https://image.ibb.co/fWyVtb/path3762.png" class="career-img">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <h1 class="career_title">Oh! Your have digged our website in search for the new job?</h1>
+                  <h1 class="career_sub">We will pleased to have you onboard! Check open positions.</h1>
+                  <a href="#" class="btn btn--white btn--width">Careers</a>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+    </body>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>About</h6>
+                    <p class="text-justify">xyz.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative to help the
+                        upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or
+                        snippets as the code wants to be simple. We will help programmers build up concepts in different
+                        programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android,
+                        SQL and Algorithm.</p>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Categories</h6>
+                    <ul class="footer-links">
+                        <li><a href="http://xyz.com/category/c-language/">C</a></li>
+                        <li><a href="http://xyz.com/category/front-end-development/">UI Design</a></li>
+                        <li><a href="http://xyz.com/category/back-end-development/">PHP</a></li>
+                        <li><a href="http://xyz.com/category/java-programming-language/">Java</a></li>
+                        <li><a href="http://xyz.com/category/android/">Android</a></li>
+                        <li><a href="http://xyz.com/category/templates/">Templates</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="http://xyz.com/about/">About Us</a></li>
+                        <li><a href="http://xyz.com/contact/">Contact Us</a></li>
+                        <li><a href="http://xyz.com/contribute-at-scanfcode/">Contribute</a></li>
+                        <li><a href="http://xyz.com/privacy-policy/">Privacy Policy</a></li>
+                        <li><a href="http://xyz.com/sitemap/">Sitemap</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by
+                        <a href="#">XYZ</a>.
+                    </p>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons">
+                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                        <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</main>

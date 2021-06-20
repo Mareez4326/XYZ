@@ -1,0 +1,16 @@
+<h1 mat-dialog-title>LOGIN</h1>
+<div mat-dialog-content>
+    <mat-form-field>
+        <mat-label>USER ID</mat-label>
+        <input [(ngModel)]="objLogin.User_Id" maxlength="13" autocomplete="off" matInput>
+    </mat-form-field>
+    <br>
+    <mat-form-field>
+        <mat-label>PASSWORD</mat-label>
+        <input [(ngModel)]="objLogin.Password" maxlength="6" type='password' autocomplete="off" matInput>
+    </mat-form-field>
+</div>
+<div mat-dialog-actions>
+    <button mat-button (click)="onNoClick()">LOGIN</button>
+    <button mat-button (click)='onCancelClick()'>CANCEL</button>
+</div>
